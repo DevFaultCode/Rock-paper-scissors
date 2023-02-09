@@ -41,7 +41,7 @@ function playRound(playerSelection, computerSelection) {
             result = 'Is a tie!'
 
         } else if (computerSelection === 'scissors') {
-            result = 'You Lose!  beats Paper'
+            result = 'You Lose! Scissors beats Paper'
             computerScore = 1
 
         }
@@ -64,9 +64,6 @@ function playRound(playerSelection, computerSelection) {
 
     return [result, playerScore, computerScore]
 }
-
-
-console.log();
 
 function game() {
     let playerScore = 0
